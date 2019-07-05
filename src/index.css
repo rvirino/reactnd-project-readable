@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.main-bar {
+    display: grid;
+    grid-template-columns: 65% 10% 25%;
+    padding: 10px;
+    align-items: center;
+    background: #dee2e9;
+}
+
+.title {
+    font-size: 26px;
+    color: #3d475a;
+}
+
+.positive {
+    background: #1c8eec;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.inline-flex {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.inline-flex>* {
+    margin-right: 10px;
+    border-radius: 5px;
+}
